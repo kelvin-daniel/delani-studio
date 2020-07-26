@@ -173,22 +173,22 @@
   </div>
   <div class="Contacts">
     <h1>CONTACT US</h1>
-    <form method="post" action=" /automations/{workflow_id}/emails/{workflow_email_id}/actions/start" id="contacts">
+    <form method="post" action="http://eepurl.com/g_jeZL" id="contacts">
       <div class="row">
         <div class="col-lg-6">
-          <input type="text" name="name" placeholder="Name..." class="form-control mb-4" id="username">
+          <input type="text" name="name" placeholder="Name..." required class="form-control mb-4" id="username">
         </div>
         <div class="col-lg-6">
-          <input type="email" name="Email" placeholder="Email..." class="form-control mb-4">
+          <input type="email" name="Email" placeholder="Email..." required class="form-control mb-4">
         </div>
       </div>
       <div class="row">
         <div class="col-lg-12">
-          <textarea name="name" rows="8" cols="80" placeholder="Your message here..." class="form-control rounded-0"></textarea>
+          <textarea name="name" rows="8" cols="80" placeholder="Your message here..." required class="form-control rounded-0"></textarea>
         </div>
       </div>
       <div class="col-md-4">
-        <button type="button" name="submit" class="btn btn-blue">Submit</button>
+        <button type="button" onclick="pageRedirect()"name="submit" class="btn btn-blue">Submit</button>
       </div>
     </form>
   </div>

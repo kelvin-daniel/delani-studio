@@ -26,3 +26,9 @@ $(".clickable").click(function(){
       this.reset();
     });
   });
+  function pageRedirect() {
+
+    window.location.href = "http://eepurl.com/g_jeZL";
+
+  }      
+  
