@@ -10,7 +10,7 @@ You can access this project by cloning it on to your local machine through this 
 
 Before installation you need a web browser installed on your device as well as a text editor of your choice in order to view and edit the files effectively.
 
-## Installation Guide
+## Setup Instructions
 
 Clone the repository to your device from the online repository. If you have git installed in your machine, from your terminal, you could go to your desired working directory and type the following commands
 
