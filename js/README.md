@@ -21,7 +21,7 @@ Clone the repository to your device from the online repository. If you have git 
 
 Click here to go to the live site.
 
-## Lanuages Used
+## Languages Used
 
     HTML
     CSS 
