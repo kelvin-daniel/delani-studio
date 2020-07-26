@@ -33,6 +33,6 @@ Click here to go to the live site.
 
 kaymutor@gmail.com
 
-## License
+## Licence
 
 This software is Licensed under MIT license Copyright (2020) Kelvin Kiplagat. 
