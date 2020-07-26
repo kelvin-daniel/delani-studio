@@ -6,7 +6,7 @@ This is a fictional studio I built to better my skills in various concepts in Bo
 ## Getting Started
 
 You can access this project by cloning it on to 
-your local machine through this online repository .
+your local repository if you have git installed through this online repository .
 
 ## Preliminary
 
