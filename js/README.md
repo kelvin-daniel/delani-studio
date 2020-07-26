@@ -1,7 +1,7 @@
 # Delani Studio
 
 This is a fictional studio I built to better my skills in various concepts in Bootstrap and JQuery.
-Built by: Kelvin Kiplagat
+### author: Kelvin Kiplagat
 
 ## Getting Started
 
