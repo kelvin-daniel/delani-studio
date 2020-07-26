@@ -114,6 +114,11 @@ body {
   display: flex;
 }
 
+#portfolio .container{
+  position: relative;
+  width: 85%;
+}
+
 .portfolio h1::after {
   content: '';
   background: #222;
