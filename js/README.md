@@ -19,7 +19,7 @@ Clone the repository to your device from the online repository. If you have git 
 
 ## Site Deployment
 
-Click here to go to the live site.
+Here is the demo live site.
 
 ## Languages Used
 
