@@ -29,7 +29,7 @@ Click here to go to the live site.
     JQUERY 
     JavaScript
 
-## Contact
+## Contact info
 
 kaymutor@gmail.com
 
