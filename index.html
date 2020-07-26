@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <title>Delani Studio</title>
     <link rel="stylesheet" href="mdb/css/mdb.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Inconsolata|Merriweather|Lora|Poppins|Roboto+Mono" rel="stylesheet">
@@ -21,7 +23,7 @@
         <h1>TO DELANI STUDIO</h1>
       </div>
       <div class="col-md-12">
-        <p>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</p>
+        <p id="hp" >AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</p>
       </div>
       <div class="col-md-12">
         <a href="#about"><img src="img/mouse_click.png" alt="Mouse"></a>
@@ -51,7 +53,7 @@
         <br>
       <div class="container-fluid" id="doings">
         <strong><h1>WHAT WE DO</h1></strong>
-        <div class="row">
+        <div class="row" id="roww">
           <div class="col-lg-4">
             <div class="design-showing">
               <span class="clickable"><img src="img/design_icon.png" alt="Design"></span>
@@ -100,11 +102,11 @@
       </div>
     </div>
   </div>
-  <div class="portfolio">
+  <div class="portfolio" id="portfolio">
     <h1>PORTFOLIO</h1>
-    <div class="container-fluid" id="portfolio">
-      <div class="row">
-        <div class="col-lg-3 col-md-6">
+    <div class="container">
+      <div class="row" id="roww">
+        <div class="col-sm-6 col-lg-3">
           <div class="view overlay">
             <img src="img/work1.jpg" class="img-fluid" alt="Moviegram">
             <div class="mask flex-center rgba-black-strong">
@@ -112,7 +114,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-3 col-md-6">
+        <div class="col-sm-6 col-lg-3">
           <div class="view overlay">
             <img src="img/work2.jpg" class="img-fluid" alt="Diamonds complex">
             <div class="mask flex-center rgba-black-strong">
@@ -120,7 +122,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-3 col-md-6">
+        <div class="col-sm-6 col-lg-3">
           <div class="view overlay">
             <img src="img/work3.jpg" class="img-fluid" alt="Ontario security">
             <div class="mask flex-center rgba-black-strong">
@@ -128,7 +130,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-3 col-md-6">
+        <div class="col-sm-6 col-lg-3">
           <div class="view overlay">
             <img src="img/work4.jpg" class="img-fluid" alt="The Blanks">
             <div class="mask flex-center rgba-black-strong">
@@ -136,7 +138,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-3 col-md-6">
+        <div class="col-sm-6 col-lg-3">
           <div class="view overlay">
             <img src="img/work5.jpg" class="img-fluid" alt="Day Booster">
             <div class="mask flex-center rgba-black-strong">
@@ -144,7 +146,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-3 col-md-6">
+        <div class="col-sm-6 col-lg-3">
           <div class="view overlay">
             <img src="img/work6.jpg" class="img-fluid" alt="Musicfix">
             <div class="mask flex-center rgba-black-strong">
@@ -152,7 +154,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-3 col-md-6">
+        <div class="col-sm-6 col-lg-3">
           <div class="view overlay">
             <img src="img/work7.jpg" class="img-fluid" alt="Burned">
             <div class="mask flex-center rgba-black-strong">
@@ -160,7 +162,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-3 col-md-6">
+        <div class="col-sm-6 col-lg-3">
           <div class="view overlay">
             <img src="img/work8.jpg" class="img-fluid" alt="Giraffe Restaurant">
             <div class="mask flex-center rgba-black-strong">
@@ -192,41 +194,19 @@
       </div>
     </form>
   </div>
-  <footer>
-    <div class="social-media">
-      <div class="row">
-        <div class="col-md-1">
-          <img src="img/behance.png" alt="behance">
-        </div>
-        <div class="col-md-1">
-          <img src="img/dribble.png" alt="dribble">
-        </div>
-        <div class="col-md-1">
-          <img src="img/facebook.png" alt="facebook">
-        </div>
-        <div class="col-md-1">
-          <img src="img/flickr.png" alt="flickr">
-        </div>
-        <div class="col-md-1">
-          <img src="img/g_plus.png" alt="google plus">
-        </div>
-        <div class="col-md-1">
-          <img src="img/pinterest.png" alt="pinterest">
-        </div>
-        <div class="col-md-1">
-          <img src="img/skype.png" alt="skype">
-        </div>
-        <div class="col-md-1">
-          <img src="img/stumble_upon.png" alt="stumble upon">
-        </div>
-        <div class="col-md-1">
-          <img src="img/twitter.png" alt="twitter">
-        </div>
-        <div class="col-md-1">
-          <img src="img/you_tube.png" alt="youtube">
-        </div>
-      </div>
-      <p>Delani Studio<br> copyright &copy 2020</p>
+  <footer class="footer">
+    <div class="footer-icons">
+      <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+      <a href="#" class="dribbble"><i class="fab fa-dribbble"></i></a>
+      <a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
+      <a href="#" class="google"><i class="fab fa-google-plus-g"></i></a>
+      <a href="#" class="skype"><i class="fab fa-skype"></i></a>
+      <a href="#" class="linkedin"><i class="fab fa-linkedin-in"></i></a>
+      <a href="#" class="behance"><i class="fab fa-behance"></i></a>
+      <a href="#" class="pinterest"><i class="fab fa-pinterest-p"></i></a>
+      <a href="#" class="flickr"><i class="fab fa-flickr"></i></a>
+    </div>
+    <p>Delani Studio<br> copyright &copy 2020</p>
     </div>
   </footer>
   <script
