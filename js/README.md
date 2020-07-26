@@ -17,7 +17,7 @@ Clone the repository to your device from the online repository. If you have git 
   git init
   git clone  https://github.com/kelvin-daniel/delani-Studio
 
-## Deployment
+## Site Deployment
 
 Click here to go to the live site.
 
