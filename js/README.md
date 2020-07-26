@@ -5,8 +5,10 @@ Built by: Kelvin Kiplagat
 
 ## Getting Started
 
-You can access this project by cloning it on to your local machine through this online repository .
-## Prerequisites
+You can access this project by cloning it on to 
+your local machine through this online repository .
+
+## Preliminary
 
 Before installation you need a web browser installed on your device as well as a text editor of your choice in order to view and edit the files effectively.
 
