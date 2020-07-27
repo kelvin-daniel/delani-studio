@@ -289,7 +289,8 @@ color: #fff;
 
 @media screen and (max-width: 470px){
   h1 {
-    font-weight: bolder;
+    font-weight: lighter;
+    font-size: 2.5vh;
   }
   body {
     font-size: 1.5vh;
@@ -301,6 +302,8 @@ color: #fff;
     font-weight: lighter;
   }
 
-  #hp
+  #hpara {
+    display: none;
+  }
 
 }
