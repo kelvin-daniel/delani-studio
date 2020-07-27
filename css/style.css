@@ -284,6 +284,9 @@ color: #fff;
     font-size: 1.2vh;
     font-weight: lighter;
   }
+  #top {
+    height: 60vh;
+  }
 
 }
 
@@ -303,6 +306,13 @@ color: #fff;
   }
 
   #hpara {
+    display: none;
+  }
+  #top {
+    height: 40vh;
+  }
+
+  #mouse {
     display: none;
   }
 
