@@ -1,6 +1,6 @@
 # Delani Studio
 
-This is a fictional studio I built to better my skills in various concepts in Bootstrap and JQuery.
+This is a fictional studio website I built to better my skills in various concepts in Bootstrap and JQuery.
 ### author: Kelvin Kiplagat
 
 ## Getting Started
@@ -14,14 +14,14 @@ Before installation you need a web browser installed on your device as well as a
 
 ## Setup Instructions
 
-Clone the repository to your device from the online repository. If you have git installed in your machine, from your terminal, you could go to your desired working directory and type the following commands
+Clone the repository to your device from the online repository. If you have git installed in your device, from your terminal, you could navigate to your desired working directory and type the following commands
 
-  git init
-  git clone  https://github.com/kelvin-daniel/delani-Studio
+  > git init  THEN,
+  > git clone  https://github.com/kelvin-daniel/delani-Studio
 
 ## Site Deployment
 
-Here is the demo live site.
+Here is the demo live site.  kelvin-daniel.github.io/delani-studio/ 
 
 ## Languages Used
 
