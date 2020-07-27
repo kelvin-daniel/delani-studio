@@ -10,6 +10,11 @@ body {
   font-size: 1.5vh;
   text-align: center;
 }
+
+h1 {
+  font-size: 2.5rem;
+}
+
 #top {
   height: 80vh;
   font-family: "Merriweather";
@@ -32,7 +37,7 @@ body {
 .About {
   background-color: white;
   padding: 10px;
-  font-size: 2.6vh;
+  font-size: 1.5vh;
   line-height: 1em;
 }
 .services {
@@ -42,7 +47,7 @@ body {
   background-repeat: no-repeat;
   color: #fafafa;
   padding: 10px;
-  font-size: 2.6vh;
+  font-size: 1.5vh;
   text-align: center;
   line-height: 1em;
   font-weight: bolder;
@@ -62,7 +67,8 @@ body {
 }
 
 .About, .services {
-  font-family: "";
+  font-family: "sans-serif";
+
 }
 #Work {
   padding-top: 4%;
@@ -72,7 +78,7 @@ body {
 #Work p {
   color: black;
 }
-#Work h4 {
+#Work h2 {
   color: black;
   font-weight: bold;
 }
@@ -263,4 +269,51 @@ color: #fff;
 }
 .flickr {
   background-color: skyblue;
+}
+
+@media screen and (max-width: 1000px){
+  h1 {
+    font-weight: bolder;
+  }
+  body {
+    font-size: 1.5vh;
+    font-weight: bold;
+  }
+
+  .About, .services {
+    font-size: 1.2vh;
+    font-weight: lighter;
+  }
+  #top {
+    height: 60vh;
+  }
+
+}
+
+@media screen and (max-width: 470px){
+  h1 {
+    font-weight: lighter;
+    font-size: 2.5vh;
+  }
+  body {
+    font-size: 1.5vh;
+    font-weight: bold;
+  }
+
+  .About, .services {
+    font-size: 1.2vh;
+    font-weight: lighter;
+  }
+
+  #hpara {
+    display: none;
+  }
+  #top {
+    height: 40vh;
+  }
+
+  #mouse {
+    display: none;
+  }
+
 }
