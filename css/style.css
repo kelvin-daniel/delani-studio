@@ -7,7 +7,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  font-size: 1.5vh;
+  font-size: 2vh;
   text-align: center;
 }
 
@@ -37,7 +37,7 @@ h1 {
 .About {
   background-color: white;
   padding: 10px;
-  font-size: 1.5vh;
+  font-size: 2vh;
   line-height: 1em;
 }
 .services {
@@ -47,7 +47,7 @@ h1 {
   background-repeat: no-repeat;
   color: #fafafa;
   padding: 10px;
-  font-size: 1.5vh;
+  font-size: 2vh;
   text-align: center;
   line-height: 1em;
   font-weight: bolder;
@@ -276,12 +276,12 @@ color: #fff;
     font-weight: bolder;
   }
   body {
-    font-size: 1.5vh;
+    font-size: 2vh;
     font-weight: bold;
   }
 
   .About, .services {
-    font-size: 1.2vh;
+    font-size: 2vh;
     font-weight: lighter;
   }
   #top {
@@ -296,12 +296,12 @@ color: #fff;
     font-size: 2.5vh;
   }
   body {
-    font-size: 1.5vh;
+    font-size: 2vh;
     font-weight: bold;
   }
 
   .About, .services {
-    font-size: 1.2vh;
+    font-size: 2vh;
     font-weight: lighter;
   }
 
