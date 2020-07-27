@@ -21,7 +21,7 @@ Clone the repository to your device from the online repository. If you have git 
 
 ## Site Deployment
 
-Here is the demo live site.  kelvin-daniel.github.io/delani-studio/ 
+Here is the demo live site.  https://kelvin-daniel.github.io/delani-studio/ 
 
 ## Languages Used
 
