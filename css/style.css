@@ -40,6 +40,16 @@ h1 {
   font-size: 2vh;
   line-height: 1em;
 }
+
+.About h1::after {
+  content: '';
+  background: #222;
+  display: block;
+  height: 2px;
+  width: 20%;
+  margin: 15px auto 25px;
+}
+
 .services {
   background-image: url("../img/s_image.jpg");
   background-size: cover;
@@ -53,8 +63,17 @@ h1 {
   font-weight: bolder;
 }
 
+.services h1::after {
+  content: '';
+  background: rgb(255, 255, 255);
+  display: block;
+  height: 2px;
+  width: 15%;
+  margin: 15px auto 25px;
+}
+
 #services{
-    text-decoration: underline;
+    text-decoration:
 }
 
 #doings h1::after {
@@ -62,7 +81,7 @@ h1 {
   background: #222;
   display: block;
   height: 2px;
-  width: 15%;
+  width: 25%;
   margin: 15px auto 45px;
 }
 
